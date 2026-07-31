@@ -65,3 +65,10 @@ def primos_ate_n_aux(n, atual):
         return [atual] + primos_ate_n_aux(n, atual + 1)
     else:
         return primos_ate_n_aux(n, atual + 1)
+
+print(num_primo(1))
+print(num_primo(2))
+print(num_primo(3))
+print(num_primo(4))
+print(num_primo(5))
+print(primos_ate_n(10))
